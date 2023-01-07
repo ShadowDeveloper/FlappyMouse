@@ -7,8 +7,9 @@ xVel = startingXVel
 terminalVel = 10
 yChange = 0.5
 jumpHeight = 10
-jumpKey = '/'
-toggleKey = '\\'
+jumpKey = input("What key should make you jump(all caps)")
+
+toggleKey = input("What key should be the toggle key? (All caps)")
 checksPressed = 0
 togglePressed = 0
 isToggled = False
